@@ -86,7 +86,7 @@ int luaO_rawequalObj (const TValue *t1, const TValue *t2) {
   }
 }
 
-
+// ½«×Ö·û×ª»»Îªlua_Number
 int luaO_str2d (const char *s, lua_Number *result) {
   char *endptr;
   *result = lua_str2number(s, &endptr);
