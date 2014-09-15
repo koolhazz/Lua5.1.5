@@ -1,0 +1,17 @@
+---- unuse Matches (16 in 6 files) ----
+Lapi.c (src):  UNUSED(L);
+Llimits.h (src):#ifndef UNUSED
+Llimits.h (src):#define UNUSED(x)	((void)(x))	/* to avoid warnings */
+Lstate.c (src):  UNUSED(ud);
+Lstate.c (src):  UNUSED(ud);
+Lua.c (src):  (void)ar;  /* unused arg. */
+Luac.c (src): UNUSED(L);
+Noparser.c (etc):  UNUSED(L);
+Noparser.c (etc):  UNUSED(z);
+Noparser.c (etc):  UNUSED(buff);
+Noparser.c (etc):  UNUSED(name);
+Noparser.c (etc):  UNUSED(f);
+Noparser.c (etc):  UNUSED(w);
+Noparser.c (etc):  UNUSED(data);
+Noparser.c (etc):  UNUSED(strip);
+Noparser.c (etc):  UNUSED(L);
